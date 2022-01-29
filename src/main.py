@@ -180,5 +180,5 @@ while(True):
         (x, y, w, h) = random.choice(rectangles)
         mouse.position = wincap.get_screen_position((x + w / 2, y + h / 2))
         mouse.click(Button.left, 1)
-        if cv2.waitKey(35000) == ord('c'):
+        if cv2.waitKey(32000) == ord('c'):
             continue
